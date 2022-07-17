@@ -2,7 +2,7 @@
     "name": "Wallpad Controller with RS485",
     "version": "0.8.7",
     "slug": "wallpad",
-    "description": "코맥스/삼성/대림 월패드가 가능한 nodejs 서버 애드온입니다.",
+    "description": "이지빌/코맥스/삼성/대림 월패드가 가능한 nodejs 서버 애드온입니다.",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "map": ["share:rw"],
     "url": "https://github.com/HAKorea/addons",
