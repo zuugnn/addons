@@ -52,8 +52,8 @@ const CONST = {
     DEVICE_COMMAND: [
         { deviceId: "Light", subId: "1-1", commandHex: Buffer.alloc(10, "f70e114103010100aa06", "hex"), power: "ON" }, //거실1등 점등
         { deviceId: "Light", subId: "1-1", commandHex: Buffer.alloc(10, "f70e114103010000ab06", "hex"), power: "OFF" }, //거실1등 소등
-        { deviceId: "Light", subId: "1-2", commandHex: Buffer.alloc(10, "f70e114103020100a906", "hex"), power: "ON" }, //거실1등 점등
-        { deviceId: "Light", subId: "1-2", commandHex: Buffer.alloc(10, "f70e114103020000a804", "hex"), power: "OFF" }, //거실1등 소등
+        { deviceId: "Light", subId: "1-2", commandHex: Buffer.alloc(10, "f70e114103020100a906", "hex"), power: "ON" }, //거실2등 점등
+        { deviceId: "Light", subId: "1-2", commandHex: Buffer.alloc(10, "f70e114103020000a804", "hex"), power: "OFF" }, //거실2등 소등
         { deviceId: "Light", subId: "1-3", commandHex: Buffer.alloc(10, "f70e114103030100a806", "hex"), power: "ON" }, //복도등 점등
         { deviceId: "Light", subId: "1-3", commandHex: Buffer.alloc(10, "f70e114103030000a906", "hex"), power: "OFF" }, //복도등 소등
         { deviceId: "Light", subId: "2-1", commandHex: Buffer.alloc(10, "F70E124103010100A906", "hex"), power: "ON" }, //방2-1등 점등
